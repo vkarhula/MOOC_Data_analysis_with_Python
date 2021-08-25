@@ -5,6 +5,16 @@ Created on Tue Mar 31 14:08:12 2020
 @author: OMISTAJA
 """
 
+# Exercise 7 (areas of shapes)
+# Create a program that can compute the areas of three shapes, triangles, rectangles and circles, when their dimensions are given.
+
+# An endless loop should ask for which shape you want the area be calculated. An empty string as input will exit the loop. 
+# If the user gives a string that is none of the given shapes, the message “unknown shape!” should be printed. 
+# Then it will ask for dimensions for that particular shape. When all the necessary dimensions are given, it prints the area, 
+# and starts the loop all over again. Use format specifier f for the area.
+
+# What happens if you give incorrect dimensions, like giving string “aa” as radius? You don’t have to check for errors in the input.
+
 shape = 1
 while shape != ' ':
     shape = input("Which area you want to calculate?" 
